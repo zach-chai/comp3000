@@ -1,0 +1,37 @@
+Script started on Sat 24 Jan 2015 06:37:45 PM EST
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;zchai@localhost: ~/comp3000]1;~/comp3000[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000[00m[31m|[00m[36m⇒[00m  [K[?1h=ffizz  f  cchmod +x fizzbuzz_test[1m [0m[0m     sh    .sh[1m [0m[0m [?1l>
+]2;chmod +x fizzbuzz.sh]1;chmod[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;zchai@localhost: ~/comp3000]1;~/comp3000[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000[00m[31m|[00m[36m⇒[00m  [K[?1h=../fizzbuzz.sh[1m [0m[0m [?1l>
+]2;./fizzbuzz.sh]1;./fizzbuzz.sh1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;zchai@localhost: ~/comp3000]1;~/comp3000[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000[00m[31m|[00m[36m⇒[00m  [K[?1h=../fizzbuzz.sh[1m [0m[0m 10[?1l>
+]2;./fizzbuzz.sh 10]1;./fizzbuzz.sh1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                              ]2;zchai@localhost: ~/comp3000]1;~/comp3000[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000[00m[31m|[00m[36m⇒[00m  [K[?1h=eexit[?1l>
+]2;exit]1;exit
+Script done on Sat 24 Jan 2015 06:38:31 PM EST
