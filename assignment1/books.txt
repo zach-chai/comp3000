@@ -1,3 +1,5 @@
-zach:melfa:books inc:2012
-z:a:b:c
-a:b:s:c
+Anthony Doerr:All the Light We Cannot See:Scribner:2014
+Rainbow Rowell:Landline:St. Martin's Press:2014
+J.K. Rowling:Harry Potter and the Deathly Hallows:Arthur A. Levine Books:2007
+Suzanne Collins:The Hunger Games:Scholastic Press:2008
+Markus Zusak:The Book Thief:Knopf Books:2006

@@ -1,0 +1,52 @@
+Script started on Mon 26 Jan 2015 05:46:36 PM EST
+(B[m[?1034h]0;~/comp3000/assignment1
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mfl[K[K./flcln.sh testing/
+file
+file
+file
+file
+file
+file
+empty_file
+
+There are files with size 0:
+testing/assignment2/empty_file
+
+would you like to delete? (yes|no)
+no
+]0;~/comp3000/assignment1
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mcd testing/
+]0;~/comp3000/assignment1/testing
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1/testing[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mf[K./fl[K[Kfl[K[K[K./flcln.sh [K
+file
+file
+file
+file
+file
+file
+empty_file
+
+There are files with size 0:
+./assignment2/empty_file
+
+would you like to delete? (yes|no)
+yes
+]0;~/comp3000/assignment1/testing
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1/testing[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[m./fl[K[K[K./flcln.sh 
+file
+file
+file
+file
+file
+file
+no files size 0
+]0;~/comp3000/assignment1/testing
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1/testing[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mexit
+exit
+
+Script done on Mon 26 Jan 2015 05:47:28 PM EST

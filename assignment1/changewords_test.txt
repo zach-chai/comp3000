@@ -1,0 +1,40 @@
+Script started on Mon 26 Jan 2015 05:28:40 PM EST
+(B[m[?1034h]0;~/comp3000/assignment1/testing
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1/testing[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mexit[C[Ccat dir1/file1[C[C../changewords.sh[C[Ccat dir1/dir2/dir3/file1[C[C[7P../changewords.sh[C[Ccat dir1/dir2/dir3/file1[5Pfile2[5Pfile1[C[C[Chsh -s `which zsh`[C[C[C[5Pat dir1/file1
+CU is a guy who goes to CU
+CU is a guy who goes to CU
+]0;~/comp3000/assignment1/testing
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1/testing[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mcat dir1/file1[C[Cexit[K[C[Ccat dir1/file1[C[C../changewords.sh[C[Ccat dir1/dir2/dir3/file1[5Pfile2[5Pfile1dir2/file2
+CU is a guy who goes to CU
+CU is a guy who goes to CU
+]0;~/comp3000/assignment1/testing
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1/testing[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mcat dir1/dir2/file2[5Pfile1[C[Cexit[K[C[Ccat dir1/file1[C[C../changewords.sh[C[Ccat dir1/dir2/dir3/file1[5Pfile2dir3/file1
+CU is a guy who goes to CU
+CU is a guy who goes to CU
+]0;~/comp3000/assignment1/testing
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1/testing[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mcat dir1/dir2/dir3/file1[5Pfile2[5Pfile1[C[Cexit[K[C[Ccat dir1/file1[C[C../changewords.sh[C[Ccat dir1/dir2/dir3/file1[C[C[7P../changewords.sh
+]0;~/comp3000/assignment1/testing
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1/testing[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[m../changewords.sh[C[Ccat dir1/dir2/dir3/file1[5Pfile2[5Pfile1
+Carleton is a guy who goes to Carleton
+Carleton is a guy who goes to Carleton
+]0;~/comp3000/assignment1/testing
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1/testing[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mcat dir1/file1[C[C../changewords.sh[C[Ccat dir1/dir2/dir3/file1[5Pfile2
+Carleton is a guy who goes to Carleton
+Carleton is a guy who goes to Carleton
+]0;~/comp3000/assignment1/testing
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1/testing[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mcat dir1/dir2/file2[5Pfile1[C[C../changewords.sh[C[Ccat dir1/dir2/dir3/file1
+Carleton is a guy who goes to Carleton
+Carleton is a guy who goes to Carleton
+]0;~/comp3000/assignment1/testing
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1/testing[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mr[Kexit
+exit
+
+Script done on Mon 26 Jan 2015 05:29:12 PM EST

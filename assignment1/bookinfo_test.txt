@@ -1,0 +1,98 @@
+Script started on Mon 26 Jan 2015 05:51:16 PM EST
+(B[m[?1034h]0;~/comp3000/assignment1
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mb[K./bookinfo.sh 5
+enter books here
+Author(s):
+Anthony Doerr
+Booktitle:
+All the light         Light we ca     We cann    Cannot See
+Publisher:
+Scribner
+Year
+2014
+Author(s):
+Landline        Rainbow Rowell
+Booktitle:
+Landline
+Publisher:
+St. Martin's Press
+Year
+2014
+Author(s):
+Harry Potter and                J.K. Rowling
+Booktitle:
+Harry Potter and the Deathly Hallows
+Publisher:
+Arthur a A. Levine Books
+Year
+2007
+Author(s):
+The Hunger Games                Suzanne Colle ins
+Booktitle:
+The Hunger Games
+Publisher:
+Scholastic Press
+Year
+2008
+Author(s):
+Aur drey        Markus Zusak
+Booktitle:
+The Book THie   hief
+Publisher:
+Knopf Books
+Year
+2006
+]0;~/comp3000/assignment1
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[m./bookinfo.sh print
+Author(s):           Anthony Doerr       
+Booktitle:           All the Light We Cannot See
+Publisher:           Scribner            
+Year:                2014                
+
+Author(s):           Rainbow Rowell      
+Booktitle:           Landline            
+Publisher:           St. Martin's Press  
+Year:                2014                
+
+Author(s):           J.K. Rowling        
+Booktitle:           Harry Potter and the Deathly Hallows
+Publisher:           Arthur A. Levine Books
+Year:                2007                
+
+Author(s):           Suzanne Collins     
+Booktitle:           The Hunger Games    
+Publisher:           Scholastic Press    
+Year:                2008                
+
+Author(s):           Markus Zusak        
+Booktitle:           The Book Thief      
+Publisher:           Knopf Books         
+Year:                2006                
+
+]0;~/comp3000/assignment1
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mp[K./bookinfo.sh  [KRain[K[K[K[K-f Rainbow print
+Author(s):           Rainbow Rowell      
+Booktitle:           Landline            
+Publisher:           St. Martin's Press  
+Year:                2014                
+
+]0;~/comp3000/assignment1
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[m./bookinfo.sh -f Rainbow print[C[C[C[C[C[C[C[C[C[C[1P print[1P print[1P print[1P print[1P print[1P print[1P printH print[1P printH printu printN printg printE printr print
+]0;~/comp3000/assignment1
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[m./bookinfo.sh -f HuNgEr print[1@i
+Author(s):           Suzanne Collins     
+Booktitle:           The Hunger Games    
+Publisher:           Scholastic Press    
+Year:                2008                
+
+]0;~/comp3000/assignment1
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment1[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mexit
+exit
+
+Script done on Mon 26 Jan 2015 05:58:09 PM EST
