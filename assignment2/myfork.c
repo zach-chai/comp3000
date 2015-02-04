@@ -14,8 +14,10 @@ int main (int argc, char *argv[])
         printf("Child process\n");
         printf("Process id: %d \n", getpid());
         printf("Parent id: %d \n", getppid());
-        printf("Process Group id: %d \n", getpgid(0));
+        printf("Process Group id: %d \n", getpgrp());
         execl("/bin/cat", "/bin/cat", "-bvt", argv[1], NULL);
+        perror("Child failed to exec ls");
+        return 1;
     }
     else
     {
@@ -23,7 +25,7 @@ int main (int argc, char *argv[])
         printf("Parent process\n");
         printf("Process id: %d \n", getpid());
         printf("Parent id: %d \n", getppid());
-        printf("Process Group id: %d \n", getpgid(0));
+        printf("Process Group id: %d \n", getpgrp());
     }
     return 0;
 }
