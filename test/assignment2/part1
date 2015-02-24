@@ -1,0 +1,94 @@
+Script started on Wed 04 Feb 2015 11:43:41 AM EST
+(B[m[?1034h]0;~/comp3000/assignment2
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment2[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[m./my[C[Cexit[C[C./myfork2 ./myfork2.c[C[C[C[C[C[C[C[C[C[C[3P myfork.c 
+Child process
+Process id: 5945 
+Parent id: 5944 
+Process Group id: 5944 
+     1	#include <stdio.h>
+     2	#include <sys/types.h>
+     3	#include <unistd.h>
+
+     4	int main (int argc, char *argv[])
+     5	{
+     6	    if(argv[1] == NULL || argc > 2)
+     7	        return 1;
+     8	    int status;
+     9	    pid_t pid;
+    10	    pid = fork();
+    11	    if(pid==0)
+    12	    {
+    13	        printf("Child process\n");
+    14	        printf("Process id: %d \n", getpid());
+    15	        printf("Parent id: %d \n", getppid());
+    16	        printf("Process Group id: %d \n", getpgrp());
+    17	        execl("/bin/cat", "/bin/cat", "-bvt", argv[1], NULL);
+    18	        perror("Child failed to execl");
+    19	        return 1;
+    20	    }
+    21	    else
+    22	    {
+    23	        waitpid(pid, &status, 0);
+    24	        printf("Parent process\n");
+    25	        printf("Process id: %d \n", getpid());
+    26	        printf("Parent id: %d \n", getppid());
+    27	        printf("Process Group id: %d \n", getpgrp());
+    28	    }
+    29	    return 0;
+    30	}
+
+Parent process
+Process id: 5944 
+Parent id: 5833 
+Process Group id: 5944 
+]0;~/comp3000/assignment2
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment2[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[m./myfork myfork.c [C[Cexit[K[C[C./myfork2 ./myfork2.c
+Child process
+Process id: 5963 
+Parent id: 5962 
+Process Group id: 5962 
+     1	#include <stdio.h>
+     2	#include <sys/types.h>
+     3	#include <unistd.h>
+
+     4	int main (int argc, char *argv[])
+     5	{
+     6	    if(argv[1] == NULL || argc > 2)
+     7	        return 1;
+     8	    int status;
+     9	    char *execargs[4] = {"/bin/cat", "-bvt", argv[1], NULL};
+    10	    pid_t pid;
+    11	    pid = fork();
+    12	    if(pid==0)
+    13	    {
+    14	        printf("Child process\n");
+    15	        printf("Process id: %d \n", getpid());
+    16	        printf("Parent id: %d \n", getppid());
+    17	        printf("Process Group id: %d \n", getpgrp());
+    18	        execv("/bin/cat", execargs);
+    19	        perror("Child failed to execv");
+    20	        return 1;
+    21	    }
+    22	    else
+    23	    {
+    24	        waitpid(pid, &status, 0);
+    25	        printf("Parent process\n");
+    26	        printf("Process id: %d \n", getpid());
+    27	        printf("Parent id: %d \n", getppid());
+    28	        printf("Process Group id: %d \n", getpgrp());
+    29	    }
+    30	    return 0;
+    31	}
+
+Parent process
+Process id: 5962 
+Parent id: 5833 
+Process Group id: 5962 
+]0;~/comp3000/assignment2
+[38;5;125mzchai[38;5;37m@[38;5;136mlocalhost[38;5;124m:[38;5;37m~/comp3000/assignment2[38;5;124m|[38;5;64mmaster[38;5;33m [!?]
+[38;5;37m$ (B[mexit
+exit
+
+Script done on Wed 04 Feb 2015 11:43:54 AM EST
