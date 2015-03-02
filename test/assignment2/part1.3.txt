@@ -1,8 +1,0 @@
-a.  It does not print because the exec call destroys the original
-    process and replaces it with the specified process so anything
-    after the exec call will never be executed.
-
-b.  The parent is the shell that executed the (myfork)program
-
-c.  Remove the wait function or put the wait function at the end of
-    the parent code.

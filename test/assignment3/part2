@@ -1,0 +1,20 @@
+Script started on Mon 02 Mar 2015 03:04:40 PM EST
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment3]1;..0/assignment3[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment3[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=ggcc -pthread semaphore.c[?1l>
+]2;gcc -pthread semaphore.c]1;gcc[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment3]1;..0/assignment3[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment3[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=../a.out[1m [0m[0m [?1l>
+]2;./a.out]1;./a.outThe number [1] modified by child
+The number [2] modified by parent
+The number [3] modified by child
+The number [4] modified by parent
+The number [5] modified by child
+The number [6] modified by parent
+The number [7] modified by child
+The number [8] modified by parent
+The number [9] modified by child
+The number [10] modified by parent
+semop -- parent -- acquire failed: Identifier removed
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment3]1;..0/assignment3[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment3[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=eexit[?1l>
+]2;exit]1;exit
+Script done on Mon 02 Mar 2015 03:04:54 PM EST

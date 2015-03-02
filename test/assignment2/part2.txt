@@ -1,4 +1,0 @@
-"mynum" gets incremented in the child process because 1 is added to "mynum" inside the child process.
-The parent process is not incremented because processes do not share resources.
-When the child process is created it makes a copy of the parent process.
-So the child process has a completely different "mynum" to the parent process.
