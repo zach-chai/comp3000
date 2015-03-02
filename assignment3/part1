@@ -1,0 +1,181 @@
+Script started on Mon 02 Mar 2015 11:21:02 AM EST
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment3]1;..0/assignment3[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment3[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=ggcc -pthread as3part1.c[?1l>
+]2;gcc -pthread as3part1.c]1;gcc[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment3]1;..0/assignment3[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment3[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=gcc -pthread as3part1.c[23Dscript -a part1        [8D[15Dclear          [10Dgs   rm as3part1input.txt[20Dcat as3part1input.txt[21D./a.out              [14Dls     ./a.out[?1l>
+]2;./a.out]1;./a.outEnter a line of text:
+Linux is a Unix-like and POSIX-compliant computer operating system assembled under the model of free and open source software development and distribution. The defining component of Linux is the Linux kernel, an operating system kernel first released on 5 October 1991 by Linus Torald
+Enter a line of text:
+Torald Linus by 1991 October 5 on released first kernel system operating an kernel, Linux the is Linux of component defining The distribution. and development software source open and free of model the under assembled system operating computer POSIX-compliant and Unix-like a is Linux
+exit    Linux is a Unix-like and POSIX-compliant computer operating system assembled under the model of free and open source software development and distribution. The defining component of Linux is the Linux kernel, an operating system kernel first released on 5 October 1991 by Linus Torald
+Enter a line of text:
+Torald Linus by 1991 October 5 on released first kernel system operating an kernel, Linux the is Linux of component defining The distribution. and development software source open and free of model the under assembled system operating computer POSIX-compliant and Unix-like a is Linux
+exit
+Torald occured 2 times
+Linus occured 2 times
+by occured 2 times
+1991 occured 2 times
+October occured 2 times
+5 occured 2 times
+on occured 2 times
+released occured 2 times
+first occured 2 times
+kernel occured 2 times
+an occured 2 times
+kernel, occured 2 times
+component occured 2 times
+defining occured 2 times
+The occured 2 times
+distribution. occured 2 times
+development occured 2 times
+software occured 2 times
+source occured 2 times
+open occured 2 times
+free occured 2 times
+model occured 2 times
+under occured 2 times
+assembled occured 2 times
+computer occured 2 times
+POSIX-compliant occured 2 times
+Unix-like occured 2 times
+a occured 2 times
+system occured 4 times
+operating occured 4 times
+the occured 4 times
+is occured 4 times
+of occured 4 times
+Linux occured 6 times
+and occured 6 times
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment3]1;..0/assignment3[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment3[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=rrmr  lls[?1l>
+]2;ls -F --color=auto]1;ls[0m[01;32ma.out[0m*  as3part1.c  as3part1input.txt  part1
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment3]1;..0/assignment3[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment3[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=rrm as3   r  eexit[?1l>
+]2;exit]1;exit
+Script done on Mon 02 Mar 2015 11:22:11 AM EST
+Script started on Mon 02 Mar 2015 11:22:25 AM EST
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment3]1;..0/assignment3[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment3[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=ggcc -pthread as3part1.c[?1l>
+]2;gcc -pthread as3part1.c]1;gcc[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment3]1;..0/assignment3[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment3[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=gcc -pthread as3part1.c[23Dscript -a part1        [8D[15Dclear          [10Dls   rm as3part1input.txt[20Dexit                [16D./a.out[?1l>
+]2;./a.out]1;./a.outEnter a line of text:
+Linux is a Unix-like and POSIX-compliant computer operating system assembled under the model of free and open source software development and distribution. The defining component of Linux is the Linux kernel, an operating system kernel first released on 5 October 1991 by Linus Torald
+Enter a line of text:
+Torald Linus by 1991 October 5 on released first kernel system operating an kernel, Linux the is Linux of component defining The distribution. and development software source open and free of model the under assembled system operating computer POSIX-compliant and Unix-like a is Linux
+Linux was originally developed as a free operating system for Intel x86-based personal computers. It has since been ported to more computer hardware platforms than any other operating system. It is a leading operating system on servers and other big systems such as mainframe computers and supercomputers as of June 2013, more than 95% of the world's 500 fastest run some variant of Linux, including all the 44 fastest. Linux also runs on embedded systems (devices where the operating system is typically built into the firmware and highly tailored to the system) such as mobile phones, tablet computers, network routers, building automation controls, televisions and video game consoles; the Android system in wide use on mobile devices is built on the Linux kernel
+Enter a line of text:
+kernel Linux the on built is devices mobile on use wide in system Android the consoles; game video and televisions controls, automation building routers, network computers, tablet phones, mobile as such system) the to tailored highly and firmware the into built typically is system operating the where (devices systems embedded on runs also Linux fastest. 44 the all including Linux, of variant some run fastest 500 world's the of 95% than more 2013, June of as supercomputers and computers mainframe as such systems big other and servers on system operating leading a is It system. operating other any than platforms hardware computer more to ported been since has It computers. personal x86-based Intel for system operating free a as developed originally was Linux
+exit
+devices occured 1 times
+use occured 1 times
+wide occured 1 times
+in occured 1 times
+Android occured 1 times
+consoles; occured 1 times
+game occured 1 times
+video occured 1 times
+televisions occured 1 times
+controls, occured 1 times
+automation occured 1 times
+building occured 1 times
+routers, occured 1 times
+network occured 1 times
+computers, occured 1 times
+tablet occured 1 times
+phones, occured 1 times
+system) occured 1 times
+tailored occured 1 times
+highly occured 1 times
+firmware occured 1 times
+into occured 1 times
+typically occured 1 times
+where occured 1 times
+(devices occured 1 times
+embedded occured 1 times
+runs occured 1 times
+also occured 1 times
+fastest. occured 1 times
+44 occured 1 times
+all occured 1 times
+including occured 1 times
+Linux, occured 1 times
+variant occured 1 times
+some occured 1 times
+run occured 1 times
+fastest occured 1 times
+500 occured 1 times
+world's occured 1 times
+95% occured 1 times
+2013, occured 1 times
+June occured 1 times
+supercomputers occured 1 times
+computers occured 1 times
+mainframe occured 1 times
+big occured 1 times
+servers occured 1 times
+leading occured 1 times
+system. occured 1 times
+any occured 1 times
+platforms occured 1 times
+hardware occured 1 times
+ported occured 1 times
+been occured 1 times
+since occured 1 times
+has occured 1 times
+computers. occured 1 times
+personal occured 1 times
+x86-based occured 1 times
+Intel occured 1 times
+for occured 1 times
+developed occured 1 times
+originally occured 1 times
+was occured 1 times
+Torald occured 1 times
+Linus occured 1 times
+by occured 1 times
+1991 occured 1 times
+October occured 1 times
+5 occured 1 times
+released occured 1 times
+first occured 1 times
+an occured 1 times
+kernel, occured 1 times
+component occured 1 times
+defining occured 1 times
+The occured 1 times
+distribution. occured 1 times
+development occured 1 times
+software occured 1 times
+source occured 1 times
+open occured 1 times
+model occured 1 times
+under occured 1 times
+assembled occured 1 times
+POSIX-compliant occured 1 times
+Unix-like occured 1 times
+kernel occured 2 times
+built occured 2 times
+mobile occured 2 times
+such occured 2 times
+to occured 2 times
+systems occured 2 times
+than occured 2 times
+more occured 2 times
+other occured 2 times
+It occured 2 times
+computer occured 2 times
+free occured 2 times
+a occured 3 times
+as occured 4 times
+on occured 5 times
+is occured 5 times
+of occured 5 times
+Linux occured 6 times
+system occured 6 times
+operating occured 6 times
+and occured 7 times
+the occured 9 times
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment3]1;..0/assignment3[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment3[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=ccat as3    c  eexit[?1l>
+]2;exit]1;exit
+Script done on Mon 02 Mar 2015 11:23:11 AM EST

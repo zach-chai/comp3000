@@ -25,32 +25,60 @@ char g_text[STR_LEN];
 volatile int g_input;
 NODE* head;
 
+void add_in_order(NODE* new)
+{
+  NODE* curr_node = head;
+  while(1)
+  {
+    if(curr_node->next == NULL)
+    {
+      new->next = NULL;
+      curr_node->next = new;
+      break;
+    }else if(curr_node->next->data->count >= new->data->count)
+    {
+      new->next = curr_node->next;
+      curr_node->next = new;
+      break;
+    }
+    curr_node = curr_node->next;
+  }
+}
+
 void insert (char* buff)
 {
   NODE* curr_node = head;
+  NODE* prev_node = NULL;
 
   // printf("%c", buff[strlen(buff) - 1]);
 
   while(1)
   {
-    if (curr_node->data != NULL && strcmp(curr_node->data->word, buff) == 0)
+    if(curr_node->data != NULL && strcmp(curr_node->data->word, buff) == 0)
     {
-      ++(curr_node->data->count);
+
+      NODE* node = curr_node;
+      ++(node->data->count);
+
+      prev_node->next = curr_node->next;
+
+      add_in_order(node);
+
       return;
     }
     if(curr_node->next == NULL)
       break;
+    prev_node = curr_node;
     curr_node = curr_node->next;
   }
 
+  NODE* new = (NODE *) malloc(sizeof(NODE));
+  new->data = (WORD *) malloc(sizeof(WORD));
+  strcpy(new->data->word, buff);
+  new->data->count = 1;
 
-  curr_node->next = (NODE *) malloc(sizeof(NODE));
-  curr_node = curr_node->next;
-
-  curr_node->data = (WORD *) malloc(sizeof(WORD));
-  strcpy(curr_node->data->word, buff);
-  curr_node->data->count = 1;
-  curr_node->next = NULL;
+  new->next = head->next;
+  head->next = new;
 }
 
 void *print_reverse (void *m)
@@ -68,7 +96,7 @@ void *print_reverse (void *m)
       sleep(1);
     } else {
 
-      if (g_text[0] == 'e' && g_text[1] == 'x' && g_text[2] == 'i' && g_text[3] == 't')
+      if (strcmp("exit", g_text) == 0)
       {
         break;
       }
@@ -84,7 +112,7 @@ void *print_reverse (void *m)
         ++str_size;
       }
 
-      int end_word = str_size - 2;
+      int end_word = str_size - 1;
 
       for (i=str_size - 1; i >= 0; i--)
       {
@@ -92,7 +120,7 @@ void *print_reverse (void *m)
         {
           size = end_word - i;
           printf("%.*s", size, &orig_str[i+1]);
-          if(end_word == str_size - 2)
+          if(end_word == str_size - 1)
             printf("%s", " ");
           end_word = i;
         }
@@ -118,7 +146,7 @@ void *store_word_count (void *m)
     }
     else {
 
-      if (g_text[0] == 'e' && g_text[1] == 'x' && g_text[2] == 'i' && g_text[3] == 't')
+      if (strcmp("exit", g_text) == 0)
       {
         break;
       }
@@ -164,7 +192,7 @@ void *store_word_count (void *m)
 void *append_to_file (void *m)
 {
   int input = g_input;
-  FILE* file =fopen("as3part1input.txt", "w");
+  FILE* file =fopen("as3part1input.txt", "a");
       if (file == NULL)
       {
         printf("Error opening file!\n");
@@ -178,13 +206,13 @@ void *append_to_file (void *m)
       sleep(1);
     }
     else {
-      if (g_text[0] == 'e' && g_text[1] == 'x' && g_text[2] == 'i' && g_text[3] == 't')
+      if (strcmp("exit", g_text) == 0)
       {
         break;
       }
 
       input = g_input;
-      fprintf(file, "%s", g_text);
+      fprintf(file, "%s\n", g_text);
     }
   }
   fclose(file);
