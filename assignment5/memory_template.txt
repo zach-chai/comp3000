@@ -1,0 +1,52 @@
+// Place the following picture as a comment at the beginning of
+// your memory_segments.cpp file.
+
+// Add the significant addresses to diagram to the right of the boxes.
+// The first address, x10000, i.e., 10000 hex, is shown.
+// Add edata, end, and the names of the variables to right as well.
+// As an example, etext is shown.  Fill in its address.
+
+//       +------------------+
+//       |  TEXT            | x10000
+//       |                  |
+//       |  instructions in | x4007d7 = proc1
+//       |  machine code    | x4008bc = proc2
+//       |                  |
+//       +------------------+ x400a5d = etext
+//       |  DATA            |
+//       |  - initialized   | x602044 = g1
+//       |    variables     | x602048 = g3
+//       |                  | x60204c = ls1
+//       |                  | x602050 = ls3
+//       | ---------------  | x602054 = edata
+//       |  - uninitialized | x602084 = g0
+//       |    variables     | x602080 = g4
+//       |                  | x602064 = ls0
+//       |                  | x602068 = ls2
+//       | ---------------  | x603040 = end
+//       |  - heap for      |
+//       |  dynamic         |
+//       |  allocation      | x249c010 = heap1
+//       |                  | x249c030 = heap2
+//       |                  |
+//       +------------------+
+//                |
+//                |
+//                V
+//
+//                .
+//                .
+//                .
+//
+//                ^
+//                |
+//                |
+//       +------------------+
+//       |  STACK           |
+//       |  - function      | x7fffc4732898 = lc4
+//       |    activation    | x7fffc473289c = lc3
+//       |    records       |
+//       |  - local         | x7fffc47328b8 = lc1
+//       |    automatic     | x7fffc47328bc = lc0
+//       |    variables     |
+//       +------------------+

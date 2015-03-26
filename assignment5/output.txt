@@ -1,0 +1,48 @@
+
+
+---------- main -------------------
+
+0xffffffff (4294967295): Last address
+0x400a5d (   4196957): Address etext
+0x602054 (   6299732): Address edata
+0x603040 (   6303808): Address end
+0x4007d7 (   4196311): Address of code for proc1
+0x4008bc (   4196540): Address of code for proc2
+0x602084 (   6299780): Address of uninitialized global variable g0
+0x602044 (   6299716): Address of initialized   global variable g1
+0x6020a0 (   6299808): Address of uninitialized global array    g2
+0x602048 (   6299720): Address of initialized   global variable g3
+0x602080 (   6299776): Address of uninitialized global variable g4
+0x249c010 (  38387728): Address heap1 in heap space
+0x249c030 (  38387760): Address heap2 in heap space
+0x7fffc47328bc (140736489269436): Address of local variable lc0
+0x7fffc47328b8 (140736489269432): Address of local variable lc1
+0x7fffc47328b4 (140736489269428): Address of local variable lc2
+0x602064 (   6299748): Address of local uninitialized static var ls0
+0x60204c (   6299724): Address of local initialized   static var ls1
+
+
+----------- proc1 ------------------
+
+0x4007d7 (   4196311): Address of code for proc1
+0x602084 (   6299780): Address of global variable g0
+0x602044 (   6299716): Address of global variable g1
+0x6020a0 (   6299808): Address of global variable g2
+0x602048 (   6299720): Address of global variable g3
+0x602080 (   6299776): Address of global variable g4
+0x7fffc473289c (140736489269404): Address of local variable lc3
+0x7fffc4732898 (140736489269400): Address of local variable lc4
+
+
+------------ proc2 -----------------
+
+0x4008bc (   4196540): Address of code for proc2
+0x602084 (   6299780): Address of global variable g0
+0x602044 (   6299716): Address of global variable g1
+0x6020a0 (   6299808): Address of global variable g2
+0x602048 (   6299720): Address of global variable g3
+0x602080 (   6299776): Address of global variable g4
+0x7fffc473289c (140736489269404): Address of local variable lc5
+0x7fffc4732898 (140736489269400): Address of local variable lc6
+0x602068 (   6299752): Address of local uninitialized static var ls2
+0x602050 (   6299728): Address of local initialized   static var ls3

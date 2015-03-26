@@ -1,0 +1,24 @@
+Script started on Thu 26 Mar 2015 12:56:02 PM EDT
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment5]1;..0/assignment5[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment5[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=ggcc part3.c[1m [0m[0m [?1l>
+]2;gcc part3.c]1;gcc[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment5]1;..0/assignment5[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment5[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=../a.out[1m [0m[0m [?1l>
+]2;./a.out]1;./a.outetext is at:   40083D
+main is at:   40068C
+fun is at:   400621
+fun2 is at:   4005C0
+edata is at:   601058
+static_int is at:   601048
+static_char is at:   60104C
+static_str is at:   601050
+kb1 is at:   601080
+kb2 is at:   601480
+end is at:   601C80
+fun automatic is at: 97822E1C
+fun dynamic is at: 97822E10
+fun2 automatic is at: 97822DFC
+fun2 dynamic is at: 97822DF0
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment5]1;..0/assignment5[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment5[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=eexit[?1l>
+]2;exit]1;exit
+Script done on Thu 26 Mar 2015 12:56:15 PM EDT
