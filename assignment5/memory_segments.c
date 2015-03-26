@@ -70,6 +70,8 @@ int main() {
 
   proc1();
   proc2();
+  printf("\n\n----------- fib ------------------\n\n");
+  fib(4);
 
   return 0;
 }
@@ -124,4 +126,19 @@ void proc2() {
     &ls2, &ls2);
   printf("%8p (%10lu): Address of local initialized   static var ls3\n",
     &ls3, &ls3);
+}
+
+int fib(int n)
+{
+  printf("%8p (%10lu): Address of code for fib%d\n", &fib, &fib, n);
+  printf("%8p (%10lu): Address of code for argument%d\n", &n, &n, n);
+  if(n >= 30)
+  {
+    return -1;
+  }
+  else if(n <= 1)
+  {
+    return 1;
+  }
+  return fib(n-1) + fib(n-2);
 }

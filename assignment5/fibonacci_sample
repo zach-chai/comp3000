@@ -1,0 +1,79 @@
+Script started on Thu 26 Mar 2015 03:06:44 PM EDT
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment5]1;..0/assignment5[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment5[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=ggcc memory_segments.c[1m [0m[0m [?1l>
+]2;gcc memory_segments.c]1;gcc[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment5]1;..0/assignment5[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment5[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=../a.out[1m [0m[0m [?1l>
+]2;./a.out]1;./a.out
+
+---------- main -------------------
+
+0xffffffff (4294967295): Last address
+0x400afd (   4197117): Address etext
+0x602054 (   6299732): Address edata
+0x603040 (   6303808): Address end
+0x4007f0 (   4196336): Address of code for proc1
+0x4008d5 (   4196565): Address of code for proc2
+0x602084 (   6299780): Address of uninitialized global variable g0
+0x602044 (   6299716): Address of initialized   global variable g1
+0x6020a0 (   6299808): Address of uninitialized global array    g2
+0x602048 (   6299720): Address of initialized   global variable g3
+0x602080 (   6299776): Address of uninitialized global variable g4
+0x24b4010 (  38486032): Address heap1 in heap space
+0x24b4030 (  38486064): Address heap2 in heap space
+0x7ffff703b3dc (140737337603036): Address of local variable lc0
+0x7ffff703b3d8 (140737337603032): Address of local variable lc1
+0x7ffff703b3d4 (140737337603028): Address of local variable lc2
+0x602064 (   6299748): Address of local uninitialized static var ls0
+0x60204c (   6299724): Address of local initialized   static var ls1
+
+
+----------- proc1 ------------------
+
+0x4007f0 (   4196336): Address of code for proc1
+0x602084 (   6299780): Address of global variable g0
+0x602044 (   6299716): Address of global variable g1
+0x6020a0 (   6299808): Address of global variable g2
+0x602048 (   6299720): Address of global variable g3
+0x602080 (   6299776): Address of global variable g4
+0x7ffff703b3bc (140737337603004): Address of local variable lc3
+0x7ffff703b3b8 (140737337603000): Address of local variable lc4
+
+
+------------ proc2 -----------------
+
+0x4008d5 (   4196565): Address of code for proc2
+0x602084 (   6299780): Address of global variable g0
+0x602044 (   6299716): Address of global variable g1
+0x6020a0 (   6299808): Address of global variable g2
+0x602048 (   6299720): Address of global variable g3
+0x602080 (   6299776): Address of global variable g4
+0x7ffff703b3bc (140737337603004): Address of local variable lc5
+0x7ffff703b3b8 (140737337603000): Address of local variable lc6
+0x602068 (   6299752): Address of local uninitialized static var ls2
+0x602050 (   6299728): Address of local initialized   static var ls3
+
+
+----------- fib ------------------
+
+0x4009ec (   4196844): Address of code for fib4
+0x7ffff703b3ac (140737337602988): Address of code for argument4
+0x4009ec (   4196844): Address of code for fib3
+0x7ffff703b37c (140737337602940): Address of code for argument3
+0x4009ec (   4196844): Address of code for fib2
+0x7ffff703b34c (140737337602892): Address of code for argument2
+0x4009ec (   4196844): Address of code for fib1
+0x7ffff703b31c (140737337602844): Address of code for argument1
+0x4009ec (   4196844): Address of code for fib0
+0x7ffff703b31c (140737337602844): Address of code for argument0
+0x4009ec (   4196844): Address of code for fib1
+0x7ffff703b34c (140737337602892): Address of code for argument1
+0x4009ec (   4196844): Address of code for fib2
+0x7ffff703b37c (140737337602940): Address of code for argument2
+0x4009ec (   4196844): Address of code for fib1
+0x7ffff703b34c (140737337602892): Address of code for argument1
+0x4009ec (   4196844): Address of code for fib0
+0x7ffff703b34c (140737337602892): Address of code for argument0
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                   ]2;zchai@localhost: ~/comp3000/assignment5]1;..0/assignment5[0m[27m[24m[J[35mzchai[00m[36m@[00m[33mlocalhost[00m[31m:[00m[36m~/comp3000/assignment5[00m[31m|[00m[00m[32mmaster[33m⚡[00m[00m
+[36m⇒[00m  [K[?1h=eexit[?1l>
+]2;exit]1;exit
+Script done on Thu 26 Mar 2015 03:06:54 PM EDT
