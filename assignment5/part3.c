@@ -28,7 +28,7 @@ void fun()
   int *dynamic = malloc(100 * sizeof(int));
 
   PRINT_ADDRESS("fun automatic", automatic);
-  PRINT_ADDRESS("fun dynamic", dynamic);
+  PRINT_ADDRESS("fun dynmic", dynamic);
 
   fun2();
 
