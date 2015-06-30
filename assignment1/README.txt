@@ -1,5 +1,5 @@
 Author: Zachary Chai
-Student Number: 100893114
+Student Number: 
 Course: COMP 3000
 
 All the shell scripts end in .sh

@@ -1,7 +1,0 @@
-Actions and corresponding signals
-a.  Exit corresponds to SIGTERM
-b.  Core corresponds to SIGQUIT
-c.  Stop corresponds to SIGTTIN
-d.  Ignore corresponds to SIGCHLD
-
-SIGSTOP and SIGKILL default action cannot be changed
